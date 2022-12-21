@@ -9,12 +9,9 @@ If you use the "hardcode", replace _config.LOGGER_BOT_TOKEN_ and
 _config.MY_TG_ID_ in _tg_bot.py_ with your values. 
 The resulting string will be:
 
-'''
-requests.post(
-            f"https://api.telegram.org/bot<YOUR_BOT_TOKEN>/"
-            f"sendMessage",
-            data={"chat_id": <YOUR_TG_ID>,
-                  "text": self.message})
-'''
+```python
+requests.post(f"https://api.telegram.org/bot/sendMessage",  
+              data={"chat_id": "YOUR_TG_ID", "text": self.message})
+```
 
 
