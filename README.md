@@ -8,6 +8,7 @@ to _.env_ file with your values.
 If you use the "hardcode", replace _config.LOGGER_BOT_TOKEN_ and
 _config.MY_TG_ID_ in _tg_bot.py_ with your values. 
 The resulting string will be:
+
 '''
 requests.post(
             f"https://api.telegram.org/bot<YOUR_BOT_TOKEN>/"
@@ -15,4 +16,5 @@ requests.post(
             data={"chat_id": <YOUR_TG_ID>,
                   "text": self.message})
 '''
+
 
