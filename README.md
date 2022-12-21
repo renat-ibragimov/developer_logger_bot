@@ -19,4 +19,4 @@ requests.post(f"https://api.telegram.org/bot*LOGGER_BOT_TOKEN*/sendMessage",
 
 To create a new bot you can simply find [BotFather](http://t.me/BotFather),  
 send _/new_ and follow instructions.  
-To find your Telegram ID you can use [GetMiIDBot](http://t.me/getmyid_bot).
+To find your Telegram ID you can use [GetMyIDBot](http://t.me/getmyid_bot).
